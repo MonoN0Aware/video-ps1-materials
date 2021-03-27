@@ -50,3 +50,41 @@ let authorIsStudent = (student == author)
 // TODO: Write solution here
 
 let studentBeforeAuthor = student > author
+
+let passingGrade = 50
+let studentGrade = 50
+let chrisGrade = 49
+let samGrade = 99
+
+let studentPassed = studentGrade >= passingGrade
+let chrisPassed = chrisGrade >= passingGrade
+let samPassed =  samGrade >= passingGrade
+let donaldGrade = 11
+let donaldPassed = donaldGrade >= passingGrade
+!samPassed
+!chrisPassed
+
+let bothPassed = chrisPassed && samPassed
+ let eitherPassed = chrisPassed || samPassed
+
+let everyonePassed = chrisPassed && samPassed && donaldPassed
+
+let meritAwardGrade = 90
+let samHasPerfectAttendance = true
+// let cam: Bool = true
+let samIsHonorStudent = samHasPerfectAttendance && samGrade > meritAwardGrade
+
+if samIsHonorStudent{
+    print ("congratulations")
+}else{
+    print("keep studyin")
+}
+
+var betterStudent: String
+
+if samGrade > chrisGrade {
+    betterStudent = "Sam"
+} else {
+    betterStudent = "chris"
+}
+betterStudent = samGrade > chrisGrade ? "sam": "chris"
