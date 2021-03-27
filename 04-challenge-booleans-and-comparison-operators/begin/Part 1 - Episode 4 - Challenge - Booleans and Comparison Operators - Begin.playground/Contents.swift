@@ -9,6 +9,14 @@
 */
 
 // TODO: Write solution here
+let myAge = 24
+
+let isVotingAge = 18
+
+let canIVote = myAge > isVotingAge
+
+print(canIVote)
+
 
 
 /*:
@@ -23,6 +31,12 @@
 
 // TODO: Write solution here
 
+let student = "Boluwatife"
+
+let author = "davefiloni"
+
+let authorIsStudent = (student == author)
+
 
 
 /*:
@@ -35,3 +49,4 @@
 
 // TODO: Write solution here
 
+let studentBeforeAuthor = student > author
