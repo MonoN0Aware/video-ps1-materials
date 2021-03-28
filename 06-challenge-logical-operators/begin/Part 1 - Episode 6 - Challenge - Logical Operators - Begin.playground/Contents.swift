@@ -9,6 +9,13 @@
  */
 
 // TODO: Write solution here
+let myAge = 24
+if myAge >= 13 && myAge <= 19 {
+    print ("Teenager")
+    
+} else {
+    print ("not teen")
+}
 
 
 /*:
@@ -19,4 +26,33 @@
  */
 
 // TODO: Write solution here
+
+let teenagerName: String
+teenagerName = myAge >= 13 && myAge <= 19 ? "bolu":"not me"
+
+var petName : String?
+var petAge: Int?
+petName = "Mango"
+
+//print(petName)
+petName = nil
+
+var number: Int? =  22
+ 
+
+petName = "call me v "
+petAge = 222
+
+var unwrappedName = petName!
+
+print("The dogs name is \(unwrappedName)")
+
+
+if let petName = petName ,
+   let petAge = petAge {
+    print(petName , petAge)
+}else{
+    print ("do stuff")
+}
+
 
